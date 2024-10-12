@@ -1,0 +1,220 @@
+
+body.dark {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+footer.dark  {
+    background-image: url("https://img.freepik.com/free-vector/technology-digital-data-mesh-network-background_1017-19691.jpg?w=996&t=st=1728660941~exp=1728661541~hmac=d770dbd1d181a0803069ad807688bd05fcf93cfde314e9e175fa954c1d7f7814") ;
+    color: #fff ;
+}
+header.dark  {
+    background-image: url("https://img.freepik.com/free-vector/technology-digital-data-mesh-network-background_1017-19691.jpg?w=996&t=st=1728660941~exp=1728661541~hmac=d770dbd1d181a0803069ad807688bd05fcf93cfde314e9e175fa954c1d7f7814") ;
+    color: #fff ;
+}
+section.dark {
+    background-color: #1A1A1A;
+    color: #f4f4f4;
+}
+#theme-toggle{
+    background-color: transparent;
+    border: none;
+}
+.video_class.dark{
+    background-color: black;
+}
+/* -------------------- theme button end -------------------  */
+*{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=740&t=st=1728660737~exp=1728661337~hmac=d86d524a0f98036eb16ab872e158d27e0ca41003cdb2b62f85207dbb19fa75c5");
+    background-size: 100%;
+    color: #fff;
+    background-repeat: no-repeat;
+    /* object-fit: contain; */
+    /* width: 100%; */
+    padding: 20px 40px;
+    height:70px;
+    text-align: center;
+}
+
+/* ---------------------- nav bar -------------------- */
+nav {
+    margin: 10px;
+    font-size: larger;
+}
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover{
+    font-size: large;
+    transition: all ease-in-out 0.3s;
+}
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+}
+/* ------------------- home */
+#home{
+    text-align: center;
+}
+.home_video{
+    width: 1300px;
+    height: 450px;
+    object-fit:cover;
+}
+/* -----------------------New Technologies */
+.New_Technologies{
+    padding-left: 40px;
+    width: 900px;
+    height: 400px;
+    margin-left: 250px;
+    object-fit: cover;
+}
+/* ------------ video class */
+.video_class{
+    background-color: #F5F5F5;
+    
+}
+/* --------------------- it_com_video */
+
+.it_com_intro_vide{
+    width: 1450px;
+    height: 450px;
+    object-fit:cover;
+    margin-left: 5px;
+}
+/* ----------------- ai video */
+.ai_video{
+    padding-left: 00px;
+    width: 900px;
+    height: 400px;
+    margin-left: 250px;
+    object-fit: cover;
+}
+/* ------------------- cloud_video */
+.cloud_video{
+    padding-left: 00px;
+    width: 900px;
+    height: 400px;
+    margin-left: 250px;
+    object-fit: cover;
+}
+/* --------------------------block_chain */
+.block_chain{
+    padding-left: 00px;
+    width: 900px;
+    height: 400px;
+    margin-left: 250px;
+    object-fit: cover;
+}
+/* -----------------------Five_G_video */
+.Five_G_video{
+    padding-left: 00px;
+    width: 900px;
+    height: 400px;
+    margin-left: 250px;
+    object-fit: cover;
+    background-color: azure;
+}
+/* -----------------------Internet_of_Things */
+.Internet_of_Things{
+    padding-left: 00px;
+    width: 900px;
+    height: 400px;
+    margin-left: 250px;
+    object-fit: cover;
+}
+/* ------------------ it comp */
+.sub_head{
+    text-decoration: solid;
+    font-size: larger;
+    font-weight:bolder;
+}
+
+/* ---------- paragraph */
+.para{
+    word-break: break-all;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-image: url("https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=740&t=st=1728660737~exp=1728661337~hmac=d86d524a0f98036eb16ab872e158d27e0ca41003cdb2b62f85207dbb19fa75c5");
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* --------------- upper_go_arrow */
+.upper_go_arrow_btn{
+    margin-top: 650px;
+    margin-left: 1440px;
+    padding: 20px;
+    position: fixed;
+    transition: all ease-in-out 1s;
+    background-color: transparent;
+    font-size: xx-large;
+    border-radius: 40px;
+    text-decoration: dotted;
+    box-shadow: none;
+    z-index: 10;
+    
+}
+/* ------------------------ Contexts us ------------------ 
+ */
+ #contact.dark
+ {
+    color: #fff;
+    background: url("https://img.freepik.com/free-vector/technology-digital-data-mesh-network-background_1017-19691.jpg?w=996&t=st=1728660941~exp=1728661541~hmac=d770dbd1d181a0803069ad807688bd05fcf93cfde314e9e175fa954c1d7f7814");
+}
+ #contact
+ {
+    color: #fff;
+    background: url("https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?t=st=1728660771~exp=1728664371~hmac=f21a063a05370816bb54c03997e40668a88f13ae20d1db0e6df88d43aebdab21&w=740");
+}
+.Forms{
+   
+    font-size: x-large;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Forms input{
+    text-align: center;
+    color: black;
+
+    margin: 15px 0px;
+    width: 300px;
+    height: 30px;
+}
+.content_btn{
+    cursor: pointer;
+    background: transparent;
+    font-size: large;
+    border: transparent;
+    color: #fff;
+    width:90px;
+    height: 60px;
+}
+.content_btn{
+    cursor: pointer;
+    background: transparent;
+    font-size: large;
+    border: transparent;
+    color: #fff;
+    width:90px;
+    height: 60px;
+}
