@@ -25,39 +25,65 @@ section.dark {
 /* -------------------- theme button end -------------------  */
 *{
     scroll-behavior: smooth;
+    margin: 0%;
+    padding: 0%;
 }
 body {
     font-family: Arial, sans-serif;
-    width: 100%;
+    backdrop-filter: brightness(50%);
+    background: url("https://c4.wallpaperflare.com/wallpaper/373/655/596/technology-asus-rog-city-hd-wallpaper-preview.jpg");
+    background-size: 100%;
+    background-position: fixed;
+    background-repeat: repeat-y;
+    width: auto;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-image: url("https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=740&t=st=1728660737~exp=1728661337~hmac=d86d524a0f98036eb16ab872e158d27e0ca41003cdb2b62f85207dbb19fa75c5");
+    background: url("https://img.freepik.com/premium-photo/abstract-futuristic-circuit-board-background_1110022-14934.jpg");
     background-size: 100%;
     color: #fff;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     /* object-fit: contain; */
     /* width: 100%; */
     padding: 20px 40px;
-    height:70px;
+    height:700px;
     text-align: center;
 }
 
 /* ---------------------- nav bar -------------------- */
 nav {
+    
+    background: transparent;
+    backdrop-filter:  blur(2px);
     margin: 10px;
     font-size: larger;
+    height: 400px;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all ease-in-out 0.3s;
+}
+nav:hover{
+    backdrop-filter:  blur(39px);
+    border-radius: 1200px;
 }
 nav a {
     margin: 0 15px;
     color: #fff;
     text-decoration: none;
+    transition: all ease-in-out 0.3s;
 }
 nav a:hover{
-    font-size: large;
-    transition: all ease-in-out 0.3s;
+    border-radius: 900px;
+    font-size:xx-large;
+}
+#main_heading{
+    font-size: 60px;
+    margin: 80px 0px;
 }
 section {
     padding: 20px;
@@ -156,21 +182,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
-/* --------------- upper_go_arrow */
-.upper_go_arrow_btn{
-    margin-top: 650px;
-    margin-left: 1440px;
-    padding: 20px;
-    position: fixed;
-    transition: all ease-in-out 1s;
-    background-color: transparent;
-    font-size: xx-large;
-    border-radius: 40px;
-    text-decoration: dotted;
-    box-shadow: none;
-    z-index: 10;
-    
-}
+
 /* ------------------------ Contexts us ------------------ 
  */
  #contact.dark
@@ -217,4 +229,9 @@ footer {
     color: #fff;
     width:90px;
     height: 60px;
+}
+#theme-toggle{
+    position: static;
+    margin-left: 1350px;
+    top: 5%;
 }
