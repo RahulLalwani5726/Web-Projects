@@ -1,26 +1,34 @@
+
 const themeToggleButton = document.getElementById('theme-toggle');
 
-themeToggleButton.addEventListener('click', () => {
+
+function theme() {
+    
     document.body.classList.toggle('dark');
     
     const isDarkMode = document.body.classList.contains('dark');
+    
     themeToggleButton.textContent = isDarkMode ? '☀️' : '🌙';
-   
+    
+    
     const sections = document.querySelectorAll('section');
     sections.forEach(section => {
         section.classList.toggle('dark');
     });
-    const header = document.querySelectorAll('header');
-    header.forEach(header => {
+    
+    const headers = document.querySelectorAll('header');
+    headers.forEach(header => {
         header.classList.toggle('dark');
     });
-    const footer = document.querySelectorAll('footer');
-    footer.forEach(footer => {
+    
+    const footers = document.querySelectorAll('footer');
+    footers.forEach(footer => {
         footer.classList.toggle('dark');
     });
-   
-    
-});
+}
+
+themeToggleButton.addEventListener('click', theme);
+
 
 var s = "Welcome to Our IT Website";
 var i = 0;
