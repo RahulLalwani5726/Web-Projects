@@ -56,7 +56,7 @@ header {
 nav {
     
     background: transparent;
-    backdrop-filter:  blur(2px);
+    backdrop-filter:  blur(5px);
     margin: 10px;
     font-size: larger;
     height: 400px;
